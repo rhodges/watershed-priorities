@@ -1,0 +1,83 @@
+div .field > label { font-size: 12px; display: inline; }
+div .box { 
+    -moz-box-shadow: 5px 5px 5px #ddd;
+    -webkit-box-shadow: 5px 5px 5px #ddd;
+    box-shadow: 5px 5px 5px #ddd; 
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px #ddd solid;
+    padding: 6px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    background-color: white; 
+    background-repeat: no-repeat;
+    min-height: 55px;
+}
+div .species { padding-left: 126px; }
+
+#coho {background-image: url("/media/species/coho2.jpg"); }
+#chinook {background-image: url("/media/species/chinook2.jpg"); }
+#steelhead {background-image: url("/media/species/steel2.jpg"); }
+#climate {
+    background-image: url("http://arsagsoftware.ars.usda.gov/DesktopModules/Weather/images/default/64x64/11.png"); }
+
+.table
+{
+	background: #fff;
+	border-collapse: collapse;
+	text-align: left;
+	font-size: 10px;
+    margin: 10px; 
+}
+.table th
+{
+	font-size: 12px;
+	font-weight: normal;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+.table td
+{
+	border-bottom: 1px solid #ccc;
+	padding: 6px 8px;
+}
+
+.hit { }
+.miss { 
+  background-color: #cc3333; 
+  color: white;
+}
+.nogoal { 
+  background-color: white;
+  color: #cccccc; 
+}
+
+.hidden { display: none; }
+li.collapsable > span.sliders { display: none; }
+li.expandable > span.sliders { color: black; display: inline; }
+.slider { margin-bottom: 1px;   }
+.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 0.7em; height: 0.7em; 
+    cursor: default; border: 1px solid #b3b3b3/*{borderColorDefault}*/; 
+    background: #F4F8FB; font-weight: normal; color: #555555; }
+.ui-slider-horizontal { height: .4em; border: 1px solid #888888; color: #222222; }
+.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+.ui-slider-horizontal .ui-slider-range-min { left: 0; background:#9a9a9a}
+.ui-widget { font-size: 100% ! important; }
+.treeview ul {background-color: #F4F8FB ! important; }
+.slider { width: 120px; }
+.slidervalue { width: 35px ! important;}
+.marinemap-panel form ul li { padding-left: 16px ! important; }
+.marinemap-panel form textarea, .marinemap-panel form input { margin-bottom: 1px ! important;}
+.treelabel { font-size: 75%; color: #555; padding: 6px; }
+.specieslabel {
+    color: #344E63;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0;
+    padding-left: 2px;
+    text-shadow: 0 1px 0 #FCFAFF;
+}
+
+input.costvalue { top: 0px !important; }
