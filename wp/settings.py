@@ -62,6 +62,11 @@ USE_CACHE = False
 # ecotrust.org
 GOOGLE_API_KEY = 'ABQIAAAAIcPbR_l4h09mCMF_dnut8RQbjMqOReB17GfUbkEwiTsW0KzXeRQ-3JgvCcGix8CM65XAjBAn6I0bAQ'
 
+TEMPLATE_DEBUG = False
+LOGIN_REDIRECT_URL = '/tool/'
+HELP_EMAIL = 'ksdev@ecotrust.org'
+STATIC_URL = ADMIN_MEDIA_PREFIX
+
 from settings_local import *
 
 # makes djcelery and djkombu happy?
@@ -69,6 +74,4 @@ DATABASE_ENGINE = DATABASES['default']['ENGINE']
 DATABASE_NAME = DATABASES['default']['NAME']
 DATABASE_USER = DATABASES['default']['USER']
 
-TEMPLATE_DEBUG = False
-LOGIN_REDIRECT_URL = '/tool/'
-HELP_EMAIL = 'ksdev@ecotrust.org'
+
