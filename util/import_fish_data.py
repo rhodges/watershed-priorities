@@ -11,8 +11,8 @@ from django.contrib.gis.utils import LayerMapping
 
 #------------------------------------#
 # Config
-xls = "../data/local/input/PrioritySpeciesList_MASTER_FOR_WEB.xls" # NOT xlsx
-shp = "../data/local/input/HUC8_20111116.shp"
+xls = "../../data/PrioritySpeciesList_MASTER_FOR_WEB.xls" # NOT xlsx
+shp = "../../data/HUC8_20120206.shp"
 backup = False
 import_shp = True
 mapping = {
